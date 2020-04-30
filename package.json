@@ -1,0 +1,18 @@
+{
+  "name": "learn-graphql",
+  "version": "0.0.1",
+  "description": "Basics of GraphQL",
+  "repository": "git@github.com:scottglenblanch/learn-graphql.git",
+  "author": "Scott Blanch <scottglenblanch@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev:graphql:start": "node src/graphql-server/start.js"
+  },
+  "dependencies": {
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^15.0.0"
+  }
+}
